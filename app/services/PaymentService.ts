@@ -1,9 +1,7 @@
 import { Payment } from "../common/data";
 import { PaymentRepository } from "../repositories/PaymentRepository";
 
-import { Worker } from 'worker_threads'
-import path from 'path';
-require('ts-node').register();
+import { Worker } from 'worker_threads';
 
 export class PaymentService {
 
