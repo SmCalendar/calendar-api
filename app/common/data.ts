@@ -7,3 +7,10 @@ export interface Event {
     dateStart: Date,
     dateEnd: Date
 }
+
+
+export interface Payment {
+    id: number;
+    amount: number;
+    date: Date;
+}
