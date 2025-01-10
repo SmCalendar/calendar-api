@@ -31,4 +31,10 @@ export class PaymentService {
             });
          });
     }
+
+    async saudacao(nome: string, callback: (mensagem: string) => void) {
+        const mensagem = `Olá, ${nome}`;
+        callback(mensagem);
+    }
+
 }
